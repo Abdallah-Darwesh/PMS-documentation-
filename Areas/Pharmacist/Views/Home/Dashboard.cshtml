@@ -1,0 +1,56 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Pharmacist Dashboard";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <h2 class="text-center mb-4 text-primary fw-bold">👩‍⚕️ Welcome to the Pharmacist Dashboard</h2>
+
+    <div class="row text-center g-4">
+        <div class="col-md-3">
+            <a asp-area="Pharmacist" asp-controller="Sales" asp-action="Create" class="btn btn-success w-100 p-4 fs-5 shadow-sm custom-btn">
+                <i class="bi bi-cash-coin fs-3 mb-2 d-block"></i>
+                Create Sale
+            </a>
+        </div>
+
+        <div class="col-md-3">
+            <a asp-area="Pharmacist" asp-controller="Returns" asp-action="Create" class="btn btn-primary w-100 p-4 fs-5 shadow-sm custom-btn">
+                <i class="bi bi-arrow-left-right fs-3 mb-2 d-block"></i>
+                Manage Returns
+            </a>
+        </div>
+
+        <div class="col-md-3">
+            <a asp-area="Pharmacist" asp-controller="SupplierOrders" asp-action="Create" class="btn btn-warning w-100 p-4 fs-5 shadow-sm custom-btn">
+                <i class="bi bi-truck fs-3 mb-2 d-block"></i>
+                Supplier Orders
+            </a>
+        </div>
+
+        <div class="col-md-3">
+            <a asp-area="Pharmacist" asp-controller="SupplierContact" asp-action="Index" class="btn btn-info w-100 p-4 fs-5 shadow-sm custom-btn">
+                <i class="bi bi-envelope-paper fs-3 mb-2 d-block"></i>
+                Contact Suppliers
+            </a>
+        </div>
+
+        <div class="col-md-3">
+            <a asp-area="Pharmacist" asp-controller="Home" asp-action="Report"
+               class="btn @(TempData["AlertsResolved"] != null ? "btn-success" : "btn-outline-danger") w-100 p-4 fs-5 shadow-sm custom-btn">
+                <i class="bi bi-exclamation-triangle fs-3 mb-2 d-block"></i>
+                Stock Alerts
+            </a>
+        </div>
+
+    </div>
+
+    @if (ViewBag.HasAlerts)
+    {
+        <div id="alertBox" class="alert alert-warning text-center mt-4 p-3 fw-bold shadow-sm">
+            ⚠️ Some products are low in stock or near expiry.
+        </div>
+    }
+</div>

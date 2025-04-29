@@ -1,0 +1,237 @@
+﻿/*=============================*/
+/* - Reset & Global Settings - */
+/*=============================*/
+
+/* تطبيق box-sizing على جميع العناصر */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* تحسين الخط الأساسي والمسافات */
+body {
+    background-color: #f0f8ff; /* خلفية بأزرق فاتح */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #343a40;
+}
+
+/*=============================*/
+/*   تأثيرات التركيز للعناصر   */
+/*=============================*/
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem #fff, 0 0 0 0.25rem #258cfb;
+}
+
+/*=============================*/
+/*     تنسيق الأزرار العامة     */
+/*=============================*/
+.btn,
+.btn-custom {
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+}
+
+    .btn:hover,
+    .btn-custom:hover {
+        transform: scale(1.05);
+        filter: brightness(90%);
+    }
+
+/*-----------------------------*/
+/* ألوان أزرار الـ Outline      */
+/*-----------------------------*/
+.btn-outline-success {
+    border: 1px solid #28a745;
+    color: #28a745;
+}
+
+    .btn-outline-success:hover {
+        background-color: #28a745;
+        color: #fff;
+    }
+
+.btn-outline-primary {
+    border: 1px solid #007bff;
+    color: #007bff;
+}
+
+    .btn-outline-primary:hover {
+        background-color: #007bff;
+        color: #fff;
+    }
+
+.btn-outline-warning {
+    border: 1px solid #ffc107;
+    color: #ffc107;
+}
+
+    .btn-outline-warning:hover {
+        background-color: #ffc107;
+        color: #000;
+    }
+
+.btn-outline-info {
+    border: 1px solid #17a2b8;
+    color: #17a2b8;
+}
+
+    .btn-outline-info:hover {
+        background-color: #17a2b8;
+        color: #fff;
+    }
+
+.btn-outline-danger {
+    border: 1px solid #dc3545;
+    color: #dc3545;
+}
+
+    .btn-outline-danger:hover {
+        background-color: #dc3545;
+        color: #fff;
+    }
+
+/*-----------------------------*/
+/*    ألوان الأزرار الأساسية    */
+/*-----------------------------*/
+.btn-primary {
+    background-color: #007bff;
+    border: 1px solid #007bff;
+    color: #fff;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: 1px solid #28a745;
+    color: #fff;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: 1px solid #dc3545;
+    color: #fff;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: 1px solid #ffc107;
+    color: #000;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border: 1px solid #17a2b8;
+    color: #fff;
+}
+
+/*-----------------------------*/
+/*         زر الطباعة         */
+/*-----------------------------*/
+.print-btn {
+    display: block;
+    margin: 15px auto 0;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+    .print-btn:hover {
+        background-color: #218838;
+        transform: scale(1.05);
+    }
+
+/*=============================*/
+/*   تنسيق العناوين والنصوص     */
+/*=============================*/
+h2, h3, h4, h5, h6 {
+    color: #343a40;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+/* تحسين تنسيق الأيقونات */
+i {
+    display: inline-block;
+    margin-right: 0.5rem;
+}
+
+/*=============================*/
+/*       تنسيق الجداول          */
+/*=============================*/
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+    .table th {
+        background-color: #343a40;
+        color: #fff;
+        padding: 0.75rem;
+        text-align: center;
+        font-weight: bold;
+        border: 1px solid #dee2e6;
+    }
+
+    .table td {
+        padding: 0.75rem;
+        text-align: center;
+        border: 1px solid #dee2e6;
+    }
+
+.table-hover tbody tr:hover {
+    background-color: #f8f9fa;
+    transition: background-color 0.3s ease;
+}
+
+/*=============================*/
+/*    تنسيق التنبيهات (Alerts)   */
+/*=============================*/
+.alert {
+    font-size: 1.125rem;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+}
+
+.alert-warning {
+    background-color: #ffeeba;
+    color: #856404;
+}
+
+.alert-success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.alert-danger {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.category-header {
+    background: linear-gradient(90deg, #4e54c8, #8f94fb);
+    color: white;
+}

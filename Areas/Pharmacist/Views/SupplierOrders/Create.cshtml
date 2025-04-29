@@ -1,0 +1,42 @@
+﻿@model PharmacyInventorySystem.ViewModels.SupplierOrderCreateViewModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Create Supplier Order";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="card shadow-sm border-0">
+    <div class="card-header bg-gradient bg-primary text-white">
+        <h5 class="mb-0">📦 Create New Supplier Order</h5>
+    </div>
+    <div class="card-body bg-light">
+        <form asp-action="Create" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+            <div class="mb-3">
+                <label asp-for="SupplierID" class="form-label fw-semibold"></label>
+                <select asp-for="SupplierID" asp-items="ViewBag.SupplierList" class="form-select">
+                    <option value="">-- Select Supplier --</option>
+                </select>
+                <span asp-validation-for="SupplierID" class="text-danger small"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="TotalAmount" class="form-label fw-semibold"></label>
+                <input asp-for="TotalAmount" class="form-control" />
+                <span asp-validation-for="TotalAmount" class="text-danger small"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+                <i class="bi bi-save me-1"></i> Create Order
+            </button>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

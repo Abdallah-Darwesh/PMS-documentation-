@@ -1,0 +1,54 @@
+﻿@model PharmacyInventorySystem.Models.Category
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Add Category";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="card shadow-sm rounded">
+        <div class="card-header category-header d-flex justify-content-between align-items-center">
+            <h4 class="mb-0">Add New Category</h4>
+            <a asp-area="Manager" asp-controller="Category" asp-action="Index" class="btn btn-light btn-sm">
+                <i class="bi bi-arrow-left"></i> Back to List
+            </a>
+        </div>
+        <div class="card-body">
+            @if (ViewBag.Errors != null)
+            {
+                <ul class="text-danger">
+                    @foreach (var err in (List<string>)ViewBag.Errors)
+                    {
+                        <li>@err</li>
+                    }
+                </ul>
+            }
+
+            <form asp-area="Manager"
+            asp-controller="Category"
+            asp-action="Create"
+            method="post">
+                @Html.AntiForgeryToken()
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <div class="mb-3">
+                    <label asp-for="CategoryName" class="form-label"></label>
+                    <input asp-for="CategoryName" class="form-control" />
+                    <span asp-validation-for="CategoryName" class="text-danger"></span>
+                </div>
+
+                <button type="submit" class="btn btn-success">
+                    <i class="bi bi-check-circle"></i> Save
+                </button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+
+    }
+}

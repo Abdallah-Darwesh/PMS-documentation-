@@ -1,0 +1,229 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = PharmacyInventorySystem
+build_property.RootNamespace = PharmacyInventorySystem
+build_property.ProjectDir = C:\Users\Abdal\OneDrive\Desktop\foru\Learningmvc\New folder\a\PharmacyInventorySystem\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Abdal\OneDrive\Desktop\foru\Learningmvc\New folder\a\PharmacyInventorySystem
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Identity/Pages/Account/AdminApprove.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxBZG1pbkFwcHJvdmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Identity/Pages/Account/ConfirmEmail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxDb25maXJtRW1haWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Identity/Pages/Account/ForgotPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Identity/Pages/Account/ForgotPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxGb3Jnb3RQYXNzd29yZENvbmZpcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Identity/Pages/Account/Logout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxMb2dvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Identity/Pages/Account/ResetPassword.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Identity/Pages/Account/ResetPasswordConfirmation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxSZXNldFBhc3N3b3JkQ29uZmlybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcQWNjb3VudFxfVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Manager/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xDYXRlZ29yeVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Manager/Views/Category/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xDYXRlZ29yeVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Manager/Views/Category/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xDYXRlZ29yeVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Manager/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xDYXRlZ29yeVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Manager/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xDYXRlZ29yeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Manager/Views/Home/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xIb21lXERhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Manager/Views/ManagerSupplierOrder/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xNYW5hZ2VyU3VwcGxpZXJPcmRlclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Manager/Views/ManagerSupplierOrder/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xNYW5hZ2VyU3VwcGxpZXJPcmRlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Manager/Views/ReturnsReport/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xSZXR1cm5zUmVwb3J0XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Manager/Views/ReturnsReport/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xSZXR1cm5zUmVwb3J0XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Manager/Views/ReturnsReport/Print.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xSZXR1cm5zUmVwb3J0XFByaW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Manager/Views/SalesReport/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTYWxlc1JlcG9ydFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Manager/Views/Supplier/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTdXBwbGllclxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Manager/Views/Supplier/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTdXBwbGllclxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Manager/Views/Supplier/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTdXBwbGllclxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Manager/Views/Supplier/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTdXBwbGllclxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Manager/Views/Supplier/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcTWFuYWdlclxWaWV3c1xTdXBwbGllclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Pharmacist/Views/Home/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGhhcm1hY2lzdFxWaWV3c1xIb21lXERhc2hib2FyZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Pharmacist/Views/Home/Report.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGhhcm1hY2lzdFxWaWV3c1xIb21lXFJlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Pharmacist/Views/Returns/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGhhcm1hY2lzdFxWaWV3c1xSZXR1cm5zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Pharmacist/Views/Returns/CreateSalesReturn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGhhcm1hY2lzdFxWaWV3c1xSZXR1cm5zXENyZWF0ZVNhbGVzUmV0dXJuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Pharmacist/Views/Returns/CreateSupplierReturn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGhhcm1hY2lzdFxWaWV3c1xSZXR1cm5zXENyZWF0ZVN1cHBsaWVyUmV0dXJuLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Pharmacist/Views/Returns/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGhhcm1hY2lzdFxWaWV3c1xSZXR1cm5zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Pharmacist/Views/Sales/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGhhcm1hY2lzdFxWaWV3c1xTYWxlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Pharmacist/Views/Sales/Invoice.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGhhcm1hY2lzdFxWaWV3c1xTYWxlc1xJbnZvaWNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Pharmacist/Views/SupplierContact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGhhcm1hY2lzdFxWaWV3c1xTdXBwbGllckNvbnRhY3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Pharmacist/Views/SupplierOrders/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGhhcm1hY2lzdFxWaWV3c1xTdXBwbGllck9yZGVyc1xBZGRQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Pharmacist/Views/SupplierOrders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGhhcm1hY2lzdFxWaWV3c1xTdXBwbGllck9yZGVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Areas/Pharmacist/Views/SupplierOrders/Summary.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcUGhhcm1hY2lzdFxWaWV3c1xTdXBwbGllck9yZGVyc1xTdW1tYXJ5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Abdal/OneDrive/Desktop/foru/Learningmvc/New folder/a/PharmacyInventorySystem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-k5vfci9r1j

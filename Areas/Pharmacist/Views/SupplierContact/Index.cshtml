@@ -1,0 +1,38 @@
+﻿@model IEnumerable<PharmacyInventorySystem.Models.Supplier>
+
+    @{
+        ViewData["Title"] = "Contact Suppliers";
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+
+    <div class="container mt-4">
+        <h2 class="mb-4">Available Suppliers</h2>
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Phone</th>
+                    <th>Contact</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var supplier in Model)
+                {
+                    <tr>
+                        <td>@supplier.SupplierName</td>
+                        <td>@supplier.ContactEmail</td>
+                        <td>@supplier.PhoneNumber</td>
+                        <td>
+                            <a href="mailto:@supplier.ContactEmail" class="btn btn-sm btn-primary">
+                                <i class="bi bi-envelope"></i> Email
+                            </a>
+                            <a href="tel:@supplier.PhoneNumber" class="btn btn-sm btn-success">
+                                <i class="bi bi-telephone"></i> Call
+                            </a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>

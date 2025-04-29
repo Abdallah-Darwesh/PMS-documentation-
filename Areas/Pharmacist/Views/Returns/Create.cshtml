@@ -1,0 +1,39 @@
+﻿@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Create Return";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">🔁 Create a Return</h2>
+
+    <form asp-action="SelectReference" method="post" class="p-4 border rounded bg-light shadow-sm">
+        <div class="form-group mb-3">
+            <label for="ReturnType" class="form-label">Return Type</label>
+            <select class="form-select" name="ReturnType" id="ReturnType" required>
+                <option value="">-- Select Return Type --</option>
+                <option value="SalesReturn">🧾 Sales Return</option>
+                <option value="SupplierReturn">📦 Supplier Return</option>
+            </select>
+        </div>
+
+        <div class="form-group mb-3">
+            <label for="ReferenceID" class="form-label">Invoice / Order ID</label>
+            <input type="number" class="form-control" name="ReferenceID" placeholder="Enter related ID" required />
+        </div>
+
+        <div class="text-center">
+            <button type="submit" class="btn btn-primary px-4">➡ Continue</button>
+        </div>
+    </form>
+
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger mt-3">
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <p>@error.ErrorMessage</p>
+            }
+        </div>
+    }
+</div>

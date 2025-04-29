@@ -1,0 +1,166 @@
+﻿@using Microsoft.AspNetCore.Identity
+@using PharmacyInventorySystem.Models
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"] - PharmacyInventorySystem</title>
+
+    <!-- تحسين الخطوط والألوان -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true">
+    @RenderSection("Styles", required: false)
+
+    <!-- تحسين واجهة المستخدم -->
+    <style>
+        body {
+            font-family: 'Tajawal', sans-serif;
+            background: linear-gradient(to right, #f8f9fa, #e3f2fd);
+            color: #343a40;
+            margin: 0;
+            padding-bottom: 2rem;
+        }
+        
+        /* تحسين تصميم الـ Navbar */
+        .navbar {
+            background: linear-gradient(90deg, #3949ab, #1e88e5);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar-brand {
+            font-weight: bold;
+            font-size: 1.6rem;
+            display: flex;
+            align-items: center;
+        }
+        
+        .navbar-brand i {
+            margin-right: 8px;
+        }
+
+        .nav-link {
+            font-weight: 500;
+            color: #ffffff !important;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #ffeb3b !important;
+        }
+
+        /* تحسين الجداول والتأثيرات */
+        #salesTable tbody tr:hover {
+            background-color: #e3f2fd;
+            transition: background-color 0.3s ease;
+        }
+
+        .gradient-header {
+            background: linear-gradient(to right, #0d6efd, #4e91ff);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        /* تحسين الفوتر */
+        footer {
+            background: #343a40;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            font-size: 14px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark shadow-sm sticky-top">
+            <div class="container">
+                <a class="navbar-brand text-white" asp-area="" asp-controller="Home" asp-action="Dashboard">
+                    <i class="bi bi-capsule"></i> Pharmacy System
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        @if (SignInManager.IsSignedIn(User))
+                        {
+                            if (User.IsInRole("Pharmacist"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Pharmacist" asp-controller="Home" asp-action="Dashboard">📊 Dashboard</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Pharmacist" asp-controller="Sales" asp-action="Create">💵 Create Sale</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Pharmacist" asp-controller="Returns" asp-action="Create">🔁 Create Return</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Pharmacist" asp-controller="SupplierOrders" asp-action="Create">🚚 Supplier Orders</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Pharmacist" asp-controller="SupplierContact" asp-action="Index">📨 Contact Suppliers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Pharmacist" asp-controller="Home" asp-action="Report">⚠️ Stock Alerts</a>
+                                </li>
+                            }
+                            else if (User.IsInRole("Manager"))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Manager" asp-controller="Home" asp-action="Dashboard">📊 Dashboard</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Manager" asp-controller="Supplier" asp-action="Index">📦 Manage Suppliers</a>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Manager" asp-controller="Category" asp-action="Index">📋 Manage Categories</a>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class ="nav-link" asp-area="Manager" asp-controller="ManagerSupplierOrder" asp-action="Index">📝 Manage Orders</a>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Manager" asp-controller="ReturnsReport" asp-action="Index">🔄 Manage Returns</a>
+
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="Manager" asp-controller="SalesReport" asp-action="Index">📊 Sales Reports</a>
+
+                                </li>
+                            }
+                        }
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-4">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>

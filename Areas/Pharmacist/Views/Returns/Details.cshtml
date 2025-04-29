@@ -1,0 +1,51 @@
+﻿@model PharmacyInventorySystem.Models.Return
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    ViewData["Title"] = "Return Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    string returnTypeLabel = Model.ReturnType == "SalesReturn" ? "Sales Return" : "Supplier Return";
+}
+
+<div class="container mt-5">
+    <h2 class="mb-4 text-center">📄 @returnTypeLabel Details</h2>
+
+    <div class="mb-3 bg-light p-3 rounded shadow-sm">
+        <p><strong>Return Date:</strong> @Model.ReturnDate.ToString("yyyy-MM-dd HH:mm")</p>
+        @if (Model.ReturnType == "SalesReturn")
+        {
+            <p><strong>Sale ID:</strong> @Model.SaleID</p>
+        }
+        else if (Model.ReturnType == "SupplierReturn")
+        {
+            <p><strong>Supplier Order ID:</strong> @Model.SupplierOrderID</p>
+        }
+        <p><strong>Total Cost:</strong> @Model.TotalReturnCost.ToString("C")</p>
+    </div>
+
+    <table class="table table-bordered table-striped">
+        <thead class="table-dark">
+            <tr>
+                <th>Product</th>
+                <th>Returned Qty</th>
+                <th>Unit Cost</th>
+                <th>Subtotal</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ReturnDetails)
+            {
+                <tr>
+                    <td>@item.Product.ProductName</td>
+                    <td>@item.ReturnQuantity</td>
+                    <td>@item.ReturnUnitCost.ToString("C")</td>
+                    <td>@(item.ReturnQuantity * item.ReturnUnitCost).ToString("C")</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <div class="text-center mt-4">
+        <a asp-action="Create" class="btn btn-primary">⬅ Back to Create</a>
+    </div>
+</div>

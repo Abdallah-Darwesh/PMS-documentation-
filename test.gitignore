@@ -1,0 +1,23 @@
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.log
+
+# ASP.NET specific
+*.dbmdl
+*.pdb
+*.cache
+
+# Others
+*.swp
+*.bak
+*.tmp
